@@ -1,0 +1,45 @@
+/* style.css */
+
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    text-align: start;
+    width: 10em;
+    background-color: blanchedalmond;
+}
+
+.inside-center {
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+    width: 5em;
+    background-color: aquamarine;
+}
+
+p.center {
+    text-align: center;
+}
+
+h1.center {
+    text-align: center;
+}
+
+/* Selector to make direct children <p> tags bold */
+.item > p {
+    font-weight: bold;
+}
+
+/* Selector to make other <p> tags normal */
+.item p {
+    font-weight: normal;
+}

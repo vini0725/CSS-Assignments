@@ -1,0 +1,23 @@
+/* style.css */
+
+.container {
+    padding: 2em;
+}
+
+.first,
+.score {
+    padding: 1em;
+    max-width: 300px;
+    background-color: #fc1;
+    border: 2px solid #f91;
+    color: #584707;
+    margin: 1em 0;
+}
+
+/* Selector to target only the first sibling of the `.first` class */
+.first + .score {
+    background-color: #cd1;
+    border-color: #9a1;
+    color: #3c4207;
+    font-weight: bold;
+}

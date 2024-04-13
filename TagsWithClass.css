@@ -1,0 +1,20 @@
+/* style.css */
+
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.item {
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    text-align: start;
+    width: 10em;
+    background-color: blanchedalmond;
+}
+
+.center {
+    text-align: center; /* Center align text using the center class */
+}

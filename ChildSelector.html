@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise for CSS Selectors</title>
+    <link rel="stylesheet" href="ChildSelector.css">
+</head>
+<body>
+   <div class="flex-container">
+        <div class="item">
+            <p class="center bold"> Item 1 </p>      <!-- Made bold -->
+            <article class="inside-center">
+                <p class="center"> Item 2 </p>        <!-- Not bold -->
+            </article>
+        </div>
+        <div class="item">
+            <p class="center bold"> Item 3 </p>      <!-- Made bold -->
+            <article class="inside-center">
+                <p class="center"> Item 4 </p>        <!-- Not bold -->
+            </article>
+        </div>
+        <div class="item">
+            <p class="center bold"> Item 5 </p>      <!-- Made bold -->
+            <article class="inside-center">
+                <p class="center"> Item 6 </p>        <!-- Not bold -->
+            </article>
+        </div>
+   </div>
+    <p class="center"> Item 7 </p>                  <!-- This should not be bold -->
+</body>
+</html>
